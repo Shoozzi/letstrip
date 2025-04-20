@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Let’s Trip, Comrade</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: gold;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .button {
+      display: inline-block;
+      background: gold;
+      color: black;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      margin: 20px auto;
+      display: block;
+      width: fit-content;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      padding: 30px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Let’s Trip, Comrade</h1>
+    <p>One Week in Moscow — $2500 All-Inclusive</p>
+  </header>
+
+  <div class="container">
+    <h2>Experience Real Russia</h2>
+    <p>✔️ Local perspective<br>
+       ✔️ Safe & unique tour<br>
+       ✔️ Food, history, nightlife, and culture<br>
+       ✔️ English-speaking guide</p>
+
+    <a href="#form" class="button">Get My Moscow Tour Plan</a>
+
+    <h2>What You’ll See</h2>
+    <p>Red Square, Moscow Metro, Soviet Bars, Local Food, Russian Bathhouses, and more. We’ll show you the city like no one else can.</p>
+
+    <h2>How It Works</h2>
+    <ol>
+      <li>Fill out the form below</li>
+      <li>We build your personalized tour plan</li>
+      <li>You approve — we make it happen</li>
+    </ol>
+
+    <h2 id="form">Get Your Free Itinerary</h2>
+    <form action="mailto:letstripcomrade@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Your name" required />
+      <input type="email" name="Email" placeholder="Your email" required />
+      <input type="text" name="Location" placeholder="Where are you from?" />
+      <select name="Interests">
+        <option value="">What are you interested in?</option>
+        <option value="History">History</option>
+        <option value="Food">Food</option>
+        <option value="Nature">Nature</option>
+        <option value="Nightlife">Nightlife</option>
+        <option value="Culture">Local Culture</option>
+      </select>
+      <input type="text" name="Travel dates" placeholder="When would you like to travel?" />
+      <textarea name="Notes" placeholder="Anything else you'd like us to know?"></textarea>
+      <input type="submit" value="Submit" class="button" />
+    </form>
+  </div>
+
+  <footer>
+    Contact: letstripcomrade@gmail.com<br>
+    Instagram | TikTok (coming soon)<br>
+    © 2025 Let’s Trip, Comrade
+  </footer>
+
+</body>
+</html>
